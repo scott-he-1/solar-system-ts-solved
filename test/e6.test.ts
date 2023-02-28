@@ -11,7 +11,7 @@ describe("getAsteroidsDiscoveredAfterYear", () => {
       getAsteroidsDiscoveredAfterYear(data.asteroids, 2000).length
     ).toEqual(6);
   });
-  it("Should give an array of Asteroids names", () => {
+  it("Should give an Array of Asteroid Objects", () => {
     expect(
       getAsteroidsDiscoveredAfterYear(data.asteroids, 2000).map((n) => n.name)
     ).toEqual([

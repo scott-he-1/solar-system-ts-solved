@@ -1,5 +1,5 @@
 // SPACE DATA EXERCISE 6
-// Return an array with all asteroids names discovered after a given year
+// Return an array with all asteroids discovered after a given year
 export function getAsteroidsDiscoveredAfterYear(asteroids, year) {}
 
 // === TEST YOURSELF ===
