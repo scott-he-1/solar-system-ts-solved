@@ -1,8 +1,6 @@
 // SPACE DATA EXERCISE 11
-// Return an array of Planets' names with less than 10 moons
+// Return an array of Planets with less than 10 moons
 // include planets with 0 moons
-// Return example: ['name1', 'name2', ... , 'nameN']
-
 export function lowMoonsPlanets(planets) {}
 
 // === TEST YOURSELF ===

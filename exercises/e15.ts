@@ -1,6 +1,5 @@
 // SPACE DATA EXERCISE 15
-// Return an array of Planets' names without moons
-// Return example: ['name1', 'name2', ... , 'nameN']
+// Return an array of Planets' without moons
 
 export function getPlanetsWithNoMoons(planets) {}
 

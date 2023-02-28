@@ -6,7 +6,7 @@ describe("findPlanetNameByMoon", () => {
   it("Should exist", () => {
     expect(findPlanetByMoon).toBeInstanceOf(Function);
   });
-  it("Should be the planet Neptune for Triton moon", () => {
+  it("Should be the planet Neptune object for Triton moon", () => {
     expect(
       findPlanetByMoon({ moonName: "Triton", planets: data.planets })?.name
     ).toEqual("Neptune");

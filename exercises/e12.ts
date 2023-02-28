@@ -1,7 +1,6 @@
 // SPACE DATA EXERCISE 12
 // Return the sum of all moons for all planets
 // Return example: 42
-
 export const allPlanetsMoonsCount = (data) => {};
 
 // === TEST YOURSELF ===

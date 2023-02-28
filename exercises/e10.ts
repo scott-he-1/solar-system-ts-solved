@@ -1,7 +1,6 @@
 // SPACE DATA EXERCISE 10
 // Return a given asteroid object of data
 // make sure that you destructure your parameters
-
 export function getAsteroidDataByName({ allData, asteroidName }) {}
 
 // === TEST YOURSELF ===
