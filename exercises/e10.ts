@@ -1,7 +1,18 @@
+import { AllData, Asteroid } from "../data/data";
 // SPACE DATA EXERCISE 10
 // Return a given asteroid object of data
 // make sure that you destructure your parameters
-export function getAsteroidDataByName({ allData, asteroidName }) {}
+type getAsteroidDataByName = {
+  allData: AllData;
+  asteroidName: string;
+};
+
+export function getAsteroidDataByName({
+  allData,
+  asteroidName,
+}: getAsteroidDataByName): Asteroid | undefined {
+  return allData.asteroids.find(({ name }) => name === asteroidName);
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-10"
